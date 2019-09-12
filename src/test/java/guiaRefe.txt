@@ -1,0 +1,13 @@
+
+ Buscar un elemento, y escribirle algo:
+ WebElement searchBox=driver.findElement(By.id("navbar-query"));
+ searchBox.sendKeys("Batman");
+
+
+ Hacer click sobre algo:
+  WebElement searchButton = driver.findElement(By.id("navbar-submit-button"));
+  searchButton.click();
+
+Imprimir algo por consola:
+System.out.println("Paso el paso 3 del test");
+
