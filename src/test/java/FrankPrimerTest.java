@@ -4,12 +4,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class FrankPrimerTest {
-public static WebDriver driver;
+	
+public static ChromeDriver driver;
 
     public static void main(String[] args) {
     //Paso 1: instancio el navegador:
         //tomo la la direccion local del driver
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\LENOVO\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\kiusys\\Desktop\\automation\\finaljenkins\\loyalty\\tools\\chromedriver.exe");
         //lo llamo para utilizarlo
         driver = new ChromeDriver();
         //aplico el uso en una URL especifica
